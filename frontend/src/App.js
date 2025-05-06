@@ -8,6 +8,8 @@ import './styles/header.scss'
 import './styles/home.scss'
 import './styles/founder.scss'
 import './styles/menu.scss'
+import './styles/footer.scss'
+import Footer from './components/layout/Footer'
 
 
 const App = () => {
@@ -17,6 +19,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
       </Routes>
+      <Footer/>
     </Router>
   )
 }
